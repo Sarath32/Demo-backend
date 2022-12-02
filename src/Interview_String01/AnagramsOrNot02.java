@@ -6,7 +6,7 @@ public class AnagramsOrNot02 {
 
 	public static void main(String[] args) {
 
-		String a="Race";
+		String a="Care";
 		String b="Care";
 		
 		a=a.toLowerCase();
