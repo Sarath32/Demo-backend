@@ -4,7 +4,7 @@ public class CountNumofVowels12 {
 
 	public static void main(String[] args) {
 
-		String a="Java PrOgramer";
+		String a="Full Stack Developer";
 		a=a.toLowerCase();
 		char s[]=a.toCharArray();
 		int vcount=0;
