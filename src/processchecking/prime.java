@@ -1,27 +1,20 @@
 package processchecking;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class prime {
 
 	public static void main(String[] args) {
-		
-		String pm ="";
 	
-		for(int i=0;i<=100;i++)
-		{
-			int c=0;
-			for(int j=i;j>=1;j--)
-			{
-			  if(i%j==0)
-			  {
-				  c++;
-			  }
-			}
-			
-			if(c==2)
-			{
-				pm=pm+i+" ";
-			}
-		}
-		System.out.println(pm);
-	}
+     String s="2452";
+     
+     int j=Integer.parseInt(s);
+     
+     System.out.println(j);
+     
+     String d=String.valueOf(j);
+     
+     System.out.println(d);
+}
 }

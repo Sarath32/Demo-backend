@@ -8,23 +8,23 @@ public class Bubble_Sort_02 {
 		
        int n=arr.length;
        
-		for(int j=0;j<n;j++)
+		for(int i=0;i<n;i++)
 		{
-			for(int i=0;i<n-j-1;i++)
+			for(int j=0;j<n-i-1;j++)
 			{
-				if(arr[i].compareTo(arr[i+1])>0)
+				if(arr[j].compareTo(arr[j+1])>0)
 				{
-					String swap=arr[i];
-					arr[i]=arr[i+1];
-					arr[i+1]=swap;
+					String swap=arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=swap;
 				}
 			}
 			
 			
 		}
-		for(int j=0;j<n;j++)
+		for(int i=0;i<n;i++)
 		{
-			System.out.print(arr[j]+" ");
+			System.out.print(arr[i]+" ");
 		}
 		
 	}

@@ -15,7 +15,14 @@ public class AdditionSingleArray18 {
 		}
 		for(int i=small;i<s;i++)
 		{
-			v[i]=m[i];
+			if(a.length>m.length)
+			{
+			v[i]=a[i];
+			}
+			else if(a.length<m.length)
+			{
+				v[i]=m[i];
+			}
 		}
 		for(int i=0;i<s;i++)
 		{

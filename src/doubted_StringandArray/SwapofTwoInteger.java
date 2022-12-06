@@ -4,7 +4,7 @@ public class SwapofTwoInteger {
 
 	public static void main(String[] args) {
 		
-		int x=20; int y=30;
+		int x=544613; int y=21351531;
 		
 		x=x+y;
 		y=x-y;
